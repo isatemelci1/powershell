@@ -15,3 +15,5 @@ Reference - https://docs.microsoft.com/en-us/powershell/module/microsoft.powersh
 #>
 
 Get-Service -Name "App*"
+
+Get-Service -Name "*network"
