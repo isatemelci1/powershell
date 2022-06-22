@@ -19,5 +19,4 @@ $StorageAccount = New-AzStorageAccount -ResourceGroupName $ResourceGroupName -Na
 -Location $Location -Kind $AccountKind -SkuName $AccountSKU
 
 $StorageAccount
-
 # ----------------------------------------------
