@@ -42,5 +42,4 @@ foreach($Group in $AllResourceGroups)
     'Removing Resource Group ' + $Group.ResourceGroupName
     Remove-AzResourceGroup -Name $Group.ResourceGroupName -Force
 }
-
 # ----------------------------------------------
