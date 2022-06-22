@@ -30,4 +30,4 @@ Connect-AzAccount -ServicePrincipal -Credential $Credential -Tenant $TenantID
 
 $ResourceGroupName ="powershell-grp"
 $Location = "North Europe"
-New-AzResourceGroup -Name $ResourceGroupName -Location $Location
+New-AzResourceGroup -Name $ResourceGroupName -Location $Location 
