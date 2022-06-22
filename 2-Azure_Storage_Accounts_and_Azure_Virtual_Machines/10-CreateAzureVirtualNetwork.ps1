@@ -27,5 +27,5 @@ $VirtualNetwork = New-AzVirtualNetwork -Name $VirtualNetworkName -ResourceGroupN
 
 # You can then display the details of the virtual network
 
-' The Virtual Network details'
+'The Virtual Network details'
 $VirtualNetwork
