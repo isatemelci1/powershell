@@ -159,5 +159,3 @@ Set-AzVmExtension -ResourceGroupName $ResourceGroupName -Location $Location `
 -VMName $VmName -Name "IISExtension" -Publisher "Microsoft.Compute" `
 -ExtensionType "CustomScriptExtension" -TypeHandlerVersion "1.10" `
 -Settings $settings -ProtectedSettings $protectedSettings
-
-
