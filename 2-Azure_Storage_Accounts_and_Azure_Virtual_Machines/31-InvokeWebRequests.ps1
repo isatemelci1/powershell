@@ -11,3 +11,5 @@ $Uri ="https://azure.microsoft.com/en-us/account/"
 $Request=Invoke-WebRequest -Uri $Uri
 
 'The status code is ' + $Request.StatusCode
+
+$Request.Content
