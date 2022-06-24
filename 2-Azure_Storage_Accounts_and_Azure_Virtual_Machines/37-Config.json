@@ -1,0 +1,39 @@
+{
+    "Development":
+    {
+        "VirtualNetwork" :
+        {
+            "Name":"dev-network",
+            "AddressSpace":"10.0.0.0/16"
+        },
+        "Subnets":[
+            {
+                "Name":"SubnetA",
+                "AddressSpace":"10.0.0.0/24"
+
+            },
+            {
+                "Name":"SubnetB",
+                "AddressSpace":"10.0.1.0/24"
+            }
+        ]
+    },
+    "Staging":{
+        "VirtualNetwork" :
+        {
+            "Name":"staging-network",
+            "AddressSpace":"192.168.0.0/16"
+        },
+        "Subnets":[
+            {
+                "Name":"SubnetC",
+                "AddressSpace":"192.168.0.0/24"
+
+            },
+            {
+                "Name":"SubnetD",
+                "AddressSpace":"192.168.1.0/24"
+            }
+        ]
+    }
+}
