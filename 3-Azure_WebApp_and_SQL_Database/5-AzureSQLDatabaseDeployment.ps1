@@ -20,7 +20,7 @@ $ResourceGroupName="powershell-grp"
 $Location="North Europe"
 $ServerName="dbserver" + (New-Guid).ToString().Substring(1,6)
 $AdminUser="sqladmin"
-$AdminPassword="Azure@123"
+$AdminPassword="Azure@123."
 
 $PasswordSecure=ConvertTo-SecureString -String $AdminPassword -AsPlainText -Force
 
