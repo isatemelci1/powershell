@@ -11,7 +11,7 @@ https://docs.microsoft.com/en-us/powershell/module/az.resources/set-azresource?v
 # Ensure to use your own GitHub repository URL
 
 $ResourceGroupName="powershell-grp"
-$WebAppName="companyapp10000"
+$WebAppName=""
 
 $Properties =@{
     repoUrl="";
