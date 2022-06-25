@@ -16,8 +16,8 @@ https://docs.microsoft.com/en-us/powershell/module/az.websites/switch-azwebappsl
 # We are using an existing Azure Web App
 
 $ResourceGroupName="powershell-grp"
-$WebAppName="companyapp10000"
-$AppServicePlanName="companyplan"
+$WebAppName=""
+$AppServicePlanName=""
 
 # For deployment slots, the App Service Plan needs to be standard or higher
 
