@@ -10,7 +10,7 @@ https://docs.microsoft.com/en-us/powershell/module/az.websites/set-azwebapp?view
 # We are enabling logging for an existing Azure Web App
 
 $ResourceGroupName="powershell-grp"
-$WebAppName="companyapp10000"
+$WebAppName=""
 
 Set-AzWebApp -ResourceGroupName $ResourceGroupName -Name $WebAppName `
 -RequestTracingEnabled $True -HttpLoggingEnabled $True `
