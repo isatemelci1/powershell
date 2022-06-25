@@ -5,7 +5,6 @@ CREATE TABLE Course
    Rating numeric(2,1)
 )
 
-
 INSERT INTO Course(CourseID,CourseName,Rating) VALUES
 (1,'AZ-204 Developing Azure solutions',4.5),
 (2,'AZ-303 Architecting Azure solutions',4.6),

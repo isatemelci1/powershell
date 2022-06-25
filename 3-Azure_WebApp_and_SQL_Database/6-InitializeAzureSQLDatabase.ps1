@@ -13,7 +13,7 @@ $ResourceGroupName="powershell-grp"
 $DatabaseName="appdb"
 
 $AdminUser="sqladmin"
-$AdminPassword="Azure@123"
+$AdminPassword="Azure@123."
 
 # We want to get the full qualified server name to connect to
 
